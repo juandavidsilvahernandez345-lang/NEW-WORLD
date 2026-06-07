@@ -1,0 +1,478 @@
+[07Jun2026 04:28:08.809] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[07Jun2026 04:28:08.815] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[07Jun2026 04:28:09.890] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Jun2026 04:28:09.960] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/NEW-WORLD/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Jun2026 04:28:10.317] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/NEW-WORLD/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[07Jun2026 04:28:10.320] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/NEW-WORLD/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Jun2026 04:28:10.322] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/NEW-WORLD/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Jun2026 04:28:10.324] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/NEW-WORLD/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Jun2026 04:28:10.504] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[07Jun2026 04:28:12.496] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Jun2026 04:28:12.575] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[07Jun2026 04:28:12.867] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jun2026 04:28:13.937] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[07Jun2026 04:28:21.472] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[07Jun2026 04:28:21.489] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[07Jun2026 04:28:21.492] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[07Jun2026 04:28:21.651] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[07Jun2026 04:28:21.720] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[07Jun2026 04:28:21.722] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[07Jun2026 04:28:22.200] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[07Jun2026 04:28:22.206] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id furnish:cl_update_itemstack
+[07Jun2026 04:28:22.211] [modloading-worker-0/INFO] [Furnish/]: Initializing Furnish on Forge.
+[07Jun2026 04:28:22.360] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Blocks.
+[07Jun2026 04:28:22.361] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Items.
+[07Jun2026 04:28:22.362] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Recipe Types.
+[07Jun2026 04:28:22.362] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Recipe Serializers.
+[07Jun2026 04:28:22.362] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Sound Events.
+[07Jun2026 04:28:22.362] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Containers.
+[07Jun2026 04:28:22.363] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Entities.
+[07Jun2026 04:28:22.363] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Block Entities.
+[07Jun2026 04:28:22.363] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Painting Variants.
+[07Jun2026 04:28:22.372] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Creative Tab.
+[07Jun2026 04:28:22.395] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Events.
+[07Jun2026 04:28:22.447] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[07Jun2026 04:28:22.448] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[07Jun2026 04:28:22.561] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id bakery:set_sign_text
+[07Jun2026 04:28:22.613] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id farm_and_charm:set_text
+[07Jun2026 04:28:28.314] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / meadow:wooly_cow] was not realized!
+[07Jun2026 04:28:28.315] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / meadow:wooly_sheep] was not realized!
+[07Jun2026 04:28:28.315] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / meadow:water_buffalo] was not realized!
+[07Jun2026 04:28:28.737] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/NEW-WORLD/servidor_minecraft/config/kawaii-dishes-common.toml is not correct. Correcting
+[07Jun2026 04:28:28.738] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common Configs for Kawaii Dishes.messages was corrected from [You look so kawaii !!, OuO, Cute <3, You look nice today, Hi Cutie !, Hey sweetie!] to its default, [You look so kawaii !!, OuO, Cute <3, You look nice today, Hi Cutie !, Hey sweetie!]. 
+[07Jun2026 04:28:28.742] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[07Jun2026 04:28:29.117] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/DashieDev/DoggyTalentsNext/refs/heads/1.21-master/check_for_update/update.json
+[07Jun2026 04:28:29.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Found status: BETA Current: 1.19.0 Target: 1.19.0
+[07Jun2026 04:28:29.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Jun2026 04:28:29.342] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[07Jun2026 04:28:29.343] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[07Jun2026 04:28:29.345] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[07Jun2026 04:28:29.346] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[07Jun2026 04:28:29.346] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[07Jun2026 04:28:29.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[07Jun2026 04:28:29.497] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterdogs_dtn] Starting version check at https://raw.githubusercontent.com/Mrblueyeti/BetterDogsForDTN/5a1f7643d862e85c05f1e9cd248c02e7fd1603f6/check_fior_updates/update.json
+[07Jun2026 04:28:29.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterdogs_dtn] Found status: BETA Current: 1.2.2 Target: 1.0
+[07Jun2026 04:28:32.868] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Jun2026 04:28:34.995] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/NEW-WORLD/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[07Jun2026 04:28:34.995] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/NEW-WORLD/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[07Jun2026 04:28:37.080] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[07Jun2026 04:28:37.335] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_0 as it is missing following references: placeable_food:w_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:w_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:w_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:w_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:w_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ch_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ch_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ch_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ch_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ch_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rv_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rv_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rv_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rv_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rv_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:cr_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:cr_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:cr_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:cr_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:cr_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:h_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:h_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:h_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:h_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:h_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_6 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_7 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_8 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fr_9 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pp_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pp_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pp_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:vm_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:vm_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:chm_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:chm_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pm_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pm_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:am_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:am_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pd_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pd_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pd_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pmg_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pmg_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pmg_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:p_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:p_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:p_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:b_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:b_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:b_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:b_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:b_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:hs_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:hs_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:hs_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ms_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ms_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ms_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:vs_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:vs_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:vs_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:c_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:c_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:c_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:c_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:c_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bb_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bb_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bb_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bb_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bb_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:po_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:po_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:po_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:po_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:po_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fs_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fs_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:fs_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:vgs_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:vgs_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:vgs_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ps_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ps_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:ps_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bc_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bc_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bc_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bc_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bc_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bp_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bp_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:bp_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pbs_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pbs_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pbs_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pbs_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rp_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rp_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rp_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rp_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pch_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pch_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:pch_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rf_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rf_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rf_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rf_4 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rf_5 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rr_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rr_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:rr_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:gp_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:gp_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:gp_3 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:cs_1 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar), 
+	placeable_food:cs_2 (from 3d_placeable_food-2.6.0-forge-1.20.1.jar)
+[07Jun2026 04:28:38.536] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kawaiidishes:create/mixing/white_chocolate
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2026 04:28:38.610] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kawaiidishes:create/haunting/unbinding_cookie_inactive
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:haunting'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2026 04:28:38.698] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kawaiidishes:create/mixing/milk_chocolate
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2026 04:28:38.767] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kawaiidishes:create/milling/coffee_powder
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:milling'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2026 04:28:38.820] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kawaiidishes:create/milling/cocoa_powder
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:milling'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2026 04:28:38.834] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe breadcraft:raisins_recipe_3
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:sweet_berry_bush'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23158!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23158!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:24) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23158!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2026 04:28:38.908] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kawaiidishes:create/deploying/unbinding_cookie_active
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:deploying'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2026 04:28:38.916] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe kawaiidishes:create/mixing/dark_chocolate
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23153!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[07Jun2026 04:28:38.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[07Jun2026 04:28:39.171] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3994 advancements
+[07Jun2026 04:28:41.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Jun2026 04:28:41.602] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Jun2026 04:28:41.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Jun2026 04:28:41.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Jun2026 04:28:41.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Jun2026 04:28:41.839] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Jun2026 04:28:41.961] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Jun2026 04:28:41.962] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Jun2026 04:28:41.963] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Jun2026 04:28:41.963] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Jun2026 04:28:42.250] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Jun2026 04:28:45.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Jun2026 04:28:50.380] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.383] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.384] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.385] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.386] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.387] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.389] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.389] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.390] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.393] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jun2026 04:28:50.694] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[07Jun2026 04:28:51.194] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[07Jun2026 04:28:51.659] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5966 ms
+[07Jun2026 04:28:51.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.677s)! For help, type "help"
+[07Jun2026 04:28:51.711] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Jun2026 04:29:15.536] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: harubie[/100.99.209.47:61200] logged in with entity id 86 at (-224.3696318242542, 116.0, 31.080918216181928)
+[07Jun2026 04:29:15.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: harubie joined the game
+[07Jun2026 04:29:29.371] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ATOM-22[/100.116.208.116:55287] logged in with entity id 270 at (-224.86711779807663, 116.0625, 31.75202105051162)
+[07Jun2026 04:29:29.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 joined the game
+[07Jun2026 04:31:10.845] [Worker-Main-2/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[07Jun2026 04:31:13.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: harubie has made the advancement [We Need to Go Deeper]
+[07Jun2026 04:31:14.831] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4366ms or 87 ticks behind
+[07Jun2026 04:31:14.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [We Need to Go Deeper]
+[07Jun2026 04:31:41.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Teleported harubie to ATOM-22]
+[07Jun2026 04:32:39.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Teleported harubie to ATOM-22]
+[07Jun2026 04:33:44.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [What a Deal!]
+[07Jun2026 04:40:37.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Ghost! Ghost! Toast?]
+[07Jun2026 04:43:39.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Mariachi?]
+[07Jun2026 04:44:01.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has completed the challenge [Mariachi!]
+[07Jun2026 04:48:58.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Freedom Intensifies]
+[07Jun2026 04:51:26.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [You're too Slow!]
+[07Jun2026 04:52:52.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Set the weather to clear]
+[07Jun2026 04:53:21.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Ticket to the End of the World]
+[07Jun2026 04:53:25.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Break On Through...]
+[07Jun2026 04:55:29.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Weird Fishes/Arpeggi]
+[07Jun2026 04:55:35.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Race Against The Clock]
+[07Jun2026 04:56:19.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ATOM-22: Set the time to 1000]
+[07Jun2026 05:24:43.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Ad End-stra]
+[07Jun2026 05:26:00.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Eye of The Storm]
+[07Jun2026 05:26:26.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Pocket Sand!]
+[07Jun2026 05:27:16.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Hand In Glove]
+[07Jun2026 05:56:38.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ATOM-22 has made the advancement [Cluckingham Palace]
